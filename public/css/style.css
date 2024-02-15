@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  --primary-color: #286DB5;
+}
+
+.background-primary{
+	background-color: var(--primary-color);
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+ 
+.header{
+	background-color: var(--primary-color);
+}
+
+.btn-primary{
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+}
+
+.dropdown-menu{
+	font-size: .875rem;
+	margin: 0.5rem 0 0;
+	padding: 0;
+}
+
+.dropdown-item{
+	padding: 0.5rem;
+}
+
+.card{
+	border-radius: 8px;
+}
+
+.form-group{
+	position: relative;
+}
+
+.form-group label{
+	position: absolute;
+	background-color: #fff;
+	padding-right: 4px;
+	padding-left: 4px;
+	left: 8px;
+	top: -8px;
+	font-size: 10px;
+	z-index: 10;
+	white-space: nowrap;
+}
+
+.form-control{
+	border-radius: 8px;
+}
